@@ -15,6 +15,19 @@ Body > Form Data > Select key as file and type as File and upload the file.
 URL FOR 2nd API to fetch the stored data in DB-
 http://localhost:5000/api/getPrice?clientId=1&snf=10.2&fat=11.1
 
+## Dependencies-
+Frameworks - Microsoft.NETCore.App
+Packages - 
+ClosedXML(0.102.2)
+Dapper (2.1.35)
+EmbedIO (3.5.2)
+EPPlus (7.1.3)
+HttpMultiPartParser (8.4.0)
+Microsoft.Extensions.Configurations (8.0.0)
+Microsoft.Extensions.Configurations.JSON (8.0.0)
+Microsoft.Extensions.DependencyInjection (8.0.0)
+MySql.Data(8.4.0)
+
 ## For Brownie points:
 In rateChartRepository.cs - Instead of writing records in DB for each record record. Send them in batched or store them in a Data Structure and Write at the end of Process, this will reduce the time significantly for POST Call.
 And For GET CALL set up indexing in DB over ClientID, Fat and SNF for faster retrival.
